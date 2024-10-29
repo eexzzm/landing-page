@@ -1,0 +1,199 @@
+    body{
+        display: flex;
+        margin: 0;
+        font-family: Roboto, sans-serif;
+        flex-direction: column;
+    }
+
+    img{
+        border:solid #1F2937 2px;
+        border-radius: 25px;
+        object-fit: contain;
+        width: 100%;
+    }
+
+    /* header */
+    #header, #footer{
+        font-size: 18px;
+        color: #E5E7EB;
+        padding: 1rem 130px;
+        display: flex;
+        flex-direction: row;
+        background-color: #1F2937;
+        justify-content: space-between;
+    }
+
+    #footer{
+        justify-content: center;
+    }
+
+    #header h1{
+        margin: 0;
+        color: #E5E7EB;
+    }
+
+    #header ul{
+        display: flex;
+        margin: 0;
+        gap: 2rem;
+        align-items: center;
+        list-style: none;
+    }
+
+    #header a{
+        color: #E5E7EB;
+        margin: 0;
+        text-decoration: none;
+    }
+
+    /* hero */
+    #hero{
+        display: flex;
+        padding: 2rem 130px;
+        gap: 2rem;
+        font-size: 18px;
+        min-height: 370px;
+        background-color: #1F2937;
+        color: #E5E7EB;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+
+    #hero .content-description{
+        min-height: max-content;
+        flex-grow: 0;
+        text-align:left;
+        min-width: 300px;
+    }
+
+    #hero .main{
+        margin: 0;
+        font-size: 48px;
+        color: #F9FaF9;
+        font-weight: 900;
+    }
+
+    button{
+        width: 100px;
+        font-weight: 900;
+        padding: 4px;
+        color:white;
+        background-color: #3882F6;
+        border-radius:  8px;
+    }
+
+    #hero img{
+        border-radius: 25px;
+        text-decoration: none;
+        width: 300px;
+    }
+
+    #rank-container{
+        margin: 0;
+        display: flex;
+        padding: 2rem 130px;
+        gap: 2rem;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        color: hsl(215, 28%, 17%);
+        font-size: 18px;
+        min-height: 370px;
+    }
+
+    #rank-container .title{
+        margin: 0;
+        font-size: 36px;
+        font-weight: 900;
+    }
+
+    .obj-container{
+        margin: auto;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+    }
+
+    .obj{
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items: center;
+    } 
+
+
+    .obj-img{
+        align-items: center;
+        display: flex;
+        width: 190px;
+        height: 190px;
+    }
+
+    .obj p{
+        text-align: center;
+        width: 200px;
+    }
+
+    #quote-container{
+        display: flex;
+        margin: 0;
+        padding: 2rem 130px;
+        gap: 2rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 18px;
+        min-height: 370px;
+        background-color: #E5E7EB;
+        text-align: right;
+        color:#1F2937;
+        justify-content: center;
+    }
+
+    .quote{
+        text-align: center;
+        font-size: 36px;
+        font-style: italic;
+    }
+
+    #action-container{
+        display: flex;
+        padding: 2rem 130px;
+        gap: 2rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 18px;
+        min-height: 370px;
+        justify-content: center;
+    }
+    
+    .action{
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        margin: auto;
+        align-items: center;
+        justify-content:space-around;
+        background-color: #3882F6;
+        padding: 20px;
+        border-radius: 15px;
+    }
+    
+    .content-description .bold{
+        font-weight: 900;
+    }
+
+    #action-container .content-description{
+
+        color:#F9FaF9;
+        text-align: left;
+    }
+    
+    .action button{
+        border-color: solid #1F2937;
+    }
